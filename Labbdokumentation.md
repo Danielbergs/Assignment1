@@ -90,3 +90,31 @@ Nätverksinställnignarna i Windows servern i kort:
 ![Nätverksinställningar](bilder/NätverksinstWindows.png) 
 
 För att få fram denna information använde jag: _ipconfig /all_. Det visar bland annat den IP-adress och subnätmask som servern konfigurerats med. DHCP är avstängt eftersom jag manuellt konfigurerade IP-adressen. 
+
+
+## Git & Versionshantering
+Git repository: 
+
+Git log: 
+
+
+## AI-stöd och Kritisk Utvärdering
+I denna del kollade jag hur en generativ AI skulle kunna hjälpa mig med mitt arbete. Jag valde att fråga ChatGPT om hjälp med att skapa mappar och en fil med hjälp av ett kommandoradskommando i bash. 
+
+### Min prompt:
+ _Hej, jag använder Bash, gör ett kommandoradskommando för att skapa mappen IT/Infrastruktur/Labb och filen Dokument.md i den._
+
+### ChatGPTs kommandoradskommando: 
+_mkdir -p IT/Infrastruktur/Labb && touch IT/Infrastruktur/Labb/Dokument.md_
+
+För att verifiera att kommandot fungerade testade jag det personligen i git bash på min dator. Det fungerade bra och skapade precis det jag bad om. Jag hittade inga hallucinationer eller föråldrade kommandon. Kommandot skapade mappen _IT/Infrastruktur/Labb_ och filen _Dokument.md_
+
+1[Kommando](bilder/KommandoradskommandoUtv.png) 
+
+
+## Slutsats
+I denna rapport har jag dokumenterat mitt genomförande i att skapa en hemmalabb. Jag har skapat två virtuella maskiner samt konfigurerat nätverk så att dessa kunde kommunicera med varandra. Jag har dokumenterat mitt arbete i att använda CLI i både PowerShell och Bash.
+
+ Under arbetets gång har jag stött på en del problem, men genom att felsöka och prova mig fram så har jag lyckats lösa dem. 
+
+Detta arbete har gett mig en bättre förståelse för virtuella maskiner, konfiguration av nätverk, CLI och hur generativ AI kan användas som ett stöd i tekniskt arbete. Jag har lärt mig väldigt mytcket under projektets gång och är nöjd med slutresultatet.
